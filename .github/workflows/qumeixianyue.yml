@@ -1,0 +1,27 @@
+name: qumeixianyue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qumeixianyue
+        env:
+          n3: ${{ secrets.n3 }}
+        run: |
+          echo $n3 | jq -r .stggz73 | /bin/bash
+          echo $vm47 | jq -r .kpn9 | /bin/bash
+          echo $xrhh46199 | jq -r .bus2 | /bin/bash
+          echo $zkhze789 | jq -r .sjgip4099 | /bin/bash
+          echo $i64442 | jq -r .zfdqf41556 | /bin/bash
+          echo $xifp56559 | jq -r .lxrca81533 | /bin/bash
+          echo $usz03450 | jq -r .k82 | /bin/bash
+          echo $qf14 | jq -r .b75453 | /bin/bash
+          echo $ze2908 | jq -r .fntf47 | /bin/bash
+
