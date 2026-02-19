@@ -3,25 +3,34 @@ name: qumeixianyue
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 3/6 * * *'
+    - cron: '5 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qumeixianyue
         env:
-          n3: ${{ secrets.n3 }}
+          qhhf60: ${{ secrets.qhhf60 }}
         run: |
-          echo $n3 | jq -r .stggz73 | /bin/bash
-          echo $vm47 | jq -r .kpn9 | /bin/bash
-          echo $xrhh46199 | jq -r .bus2 | /bin/bash
-          echo $zkhze789 | jq -r .sjgip4099 | /bin/bash
-          echo $i64442 | jq -r .zfdqf41556 | /bin/bash
-          echo $xifp56559 | jq -r .lxrca81533 | /bin/bash
-          echo $usz03450 | jq -r .k82 | /bin/bash
-          echo $qf14 | jq -r .b75453 | /bin/bash
-          echo $ze2908 | jq -r .fntf47 | /bin/bash
+          echo $qhhf60 | jq -r .wr80 | /bin/bash
+          echo $ok0 | jq -r .slp1284 | /bin/bash
+          echo $wxi065 | jq -r .uox1685 | /bin/bash
+          echo $lpk1257 | jq -r .a0 | /bin/bash
+          echo $m76495 | jq -r .lgs30268 | /bin/bash
+          echo $om0829 | jq -r .kwaj16 | /bin/bash
+          echo $ii5371 | jq -r .dj63 | /bin/bash
+          echo $fl2833 | jq -r .yaegf0622 | /bin/bash
+          echo $mo442 | jq -r .omng5 | /bin/bash
+          echo $z80332 | jq -r .joya6 | /bin/bash
+          echo $adol07720 | jq -r .a74872 | /bin/bash
+          echo $izd665 | jq -r .i755 | /bin/bash
+          echo $ygsm396 | jq -r .trne815 | /bin/bash
+          echo $huzog920 | jq -r .vv3 | /bin/bash
+          echo $wousw69 | jq -r .y5998 | /bin/bash
+          echo $sqe4 | jq -r .kcat333 | /bin/bash
+          echo $igy1 | jq -r .rokb1850 | /bin/bash
+          echo $qcw80 | jq -r .tta869 | /bin/bash
+          echo $mmdw9217 | jq -r .psqnk47 | /bin/bash
 
